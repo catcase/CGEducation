@@ -1,0 +1,156 @@
+body {
+  margin: 0
+
+}
+
+.nav ul {
+  list-style-type: none;
+  overflow: hidden;
+
+}
+
+.nav li {
+  display: flex;
+  flex-direction: row;
+  text-transform: uppercase;
+  font-size: 14px;
+  float: right;
+  padding: 20px 15px;
+  margin-right: 25px;
+}
+
+.mastercontainer {
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  width: 80%;
+}
+
+.container1, .container2, .container3, .container4, .container5 {
+  padding-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 33.3%;
+}
+
+.box1 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: sans-serif;
+  font-size: 12px;
+  line-height: 1.2em;
+  text-align: center;
+  border-color: #000000;
+  border-width: 2px;
+  border-style: dashed;
+  border-bottom: none;
+  width: 250px;
+  height: 60px;
+  vertical-align: top;
+  background-color: #e4e0ff;
+}
+
+.box1 p2 {
+  font-weight: bold;
+}
+
+.box2 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: sans-serif;
+  font-size: 12px;
+  line-height: 1.2em;
+  text-align: center;
+  border-color: #000000;
+  border-width: 2px;
+  border-style: dashed;
+  width: 125px;
+  height: 60px;
+  vertical-align: top;
+  background-color: #e4e0ff;
+}
+
+.box2 p1 {
+  font-weight: bold;
+}
+
+.box3 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: sans-serif;
+  font-size: 12px;
+  line-height: 1.2em;
+  text-align: center;
+  margin-left: -4px;
+  border-color: #000000;
+  border-width: 2px;
+  border-style: dashed;
+  width: 125px;
+  height: 60px;
+  vertical-align: top;
+  background-color: #e4e0ff;
+}
+
+.box3 p1 {
+  font-weight: bold;
+}
+
+.sMasterContainer {
+  margin: auto;
+  padding-top: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+}
+
+.scontainer1, .scontainer2, .scontainer3 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 25%;
+}
+
+.sbox1 {
+  font-family: sans-serif;
+  font-size: 12px;
+  text-align: center;
+  border-color: #000000;
+  border-width: 2px;
+  border-style: dashed;
+  border-bottom: none;
+  width: 250px;
+  height: 150px;
+  vertical-align: top;
+  background-color: #e4e0ff;
+}
+
+.sbox1 p2 {
+  font-weight: bold;
+}
+
+.sbox2 {
+  font-family: sans-serif;
+  text-align: center;
+  border-color: #000000;
+  border-width: 2px;
+  border-style: dashed;
+  width: 250px;
+  height: 150px;
+  vertical-align: top;
+  background-color: #e4e0ff
+}
+
+.sbox2 p1, p2, p3 {
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.sbox2 a {
+  font-size: 12px
+}
