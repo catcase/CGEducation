@@ -34,7 +34,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  width: 33.3%;
+  width: 300px;
 }
 
 .box1 {
@@ -101,7 +101,6 @@ body {
 
 .sMasterContainer {
   margin: auto;
-  padding-top: 25px;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -110,10 +109,12 @@ body {
 }
 
 .scontainer1, .scontainer2, .scontainer3 {
+  padding-top: 20px;
   display: flex;
   flex-wrap: wrap;
+  flex-direction: row;
   justify-content: center;
-  width: 25%;
+  width: 300px;
 }
 
 .sbox1 {
@@ -153,4 +154,46 @@ body {
 
 .sbox2 a {
   font-size: 12px
+}
+
+.cMasterContainer {
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.ccontainer1, .ccontainer2, .ccontainer3, .ccontainer4, .ccontainer5 {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  padding-top: 20px;
+  width: 475px;
+}
+
+.cbox1 {
+  font-family: sans-serif;
+  width: 200px;
+  height: 80px;
+  border-style: dashed;
+  border-right: none;
+  border-width: 2px;
+  border-color: #000000;
+  vertical-align: top;
+  background-color: #e4e0ff;
+}
+
+.cbox2 {
+  font-family: sans-serif;
+  width: 200px;
+  height: 80px;
+  border-style: dashed;
+  border-left: none;
+  border-width: 2px;
+  border-color: #000000;
+  vertical-align: top;
+  background-color: #e4e0ff;
 }
