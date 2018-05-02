@@ -6,17 +6,21 @@ body {
 .nav ul {
   list-style-type: none;
   overflow: hidden;
+}
 
+.nav h6 {
+  text-transform: uppercase;
 }
 
 .nav li {
-  display: flex;
-  flex-direction: row;
+  text-transform: uppercase;
+}
+
+.nav li a {
   text-transform: uppercase;
   font-size: 14px;
-  float: right;
-  padding: 20px 15px;
   margin-right: 25px;
+  float: right;
 }
 
 .mastercontainer {
@@ -78,6 +82,14 @@ body {
   font-weight: bold;
 }
 
+.box2 p2 {
+  font-weight: normal;
+}
+
+.box2 p3 {
+  font-weight: normal;
+}
+
 .box3 {
   padding-top: 10px;
   padding-bottom: 10px;
@@ -137,7 +149,6 @@ body {
 
 .sbox2 {
   font-family: sans-serif;
-  text-align: center;
   border-color: #000000;
   border-width: 2px;
   border-style: dashed;
@@ -148,6 +159,8 @@ body {
 }
 
 .sbox2 p1, p2, p3 {
+  padding-left: 30px;
+  padding-right: 30px;
   font-weight: bold;
   font-size: 12px;
 }
@@ -179,11 +192,16 @@ body {
   width: 200px;
   height: 80px;
   border-style: dashed;
-  border-right: none;
+  border-right: dashed;
   border-width: 2px;
   border-color: #000000;
   vertical-align: top;
   background-color: #e4e0ff;
+}
+
+.cbox1 p1 {
+  padding-left: 30px;
+  font-size: 13px;
 }
 
 .cbox2 {
